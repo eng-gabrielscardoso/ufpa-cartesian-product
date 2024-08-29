@@ -9,4 +9,8 @@ impl Vertex {
       id: id.to_string(),
     }
   }
+
+  pub fn get_id(&self) -> &str {
+    &self.id
+  }
 }
